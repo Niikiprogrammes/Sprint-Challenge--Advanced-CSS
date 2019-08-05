@@ -4,31 +4,53 @@
 <head>
   <meta charset="utf-8">
 
-  <title>SpaceWalkers</title>
+  <h2><strong>SpaceWalkers</strong></h2>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
+  <meta<meta `content="width=device-width, initial-scale=1"`>
+<meta name="viewport"content="width="device-width, intial-scale="1.0">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
+
+
+
 <body>
 
  <!-- navigation code here -->
+ <nav>
+  
+     <a href="#">Home</a></li>
+     <a href="#">About</a></li>
+     <a href="#">portfolio</a></li>
+     <a href="#">Contact</a></li>
+
+
+
+  
+
+
+</nav>
 
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
+      
+      
+
+
 
       <h2>Lift Off</h2>
-    
+     
       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
     </header>
 
     <section class="space-images">
+        
         <img src="img/blast.png" class="blast" alt="Rocket blasting off">
         <img src="img/sky.png" class="sky" alt="Space sky image">
         <img src="img/launch.png" class="launch" alt="Launching rocket">
@@ -42,7 +64,7 @@
     
       <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
     </section>
-    
+  <hr/>
     <section class="walk">
       <div class="walk-text">
         <h3>Let's Go For A Walk</h3>
@@ -50,19 +72,61 @@
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+        
+        <div class="walk-img">
+        <img src="img/space-walk.png" alt="Space walking astronaut" class="align-right img"/>
+    </div>
+       
+    
+    <a href="box1">Sign Up!</a>
+        
+        
+  
       
-        <div class="btn">
-          Sign Up
-        </div>
-      </div>
       
-      <div class="walk-img">
-          <img src="img/space-walk.png" alt="Space walking astronaut">
-      </div>
 
     </section>
 
-    <footer>
+    <footer><section id="three">
+        <h2>Get In Touch</h2>
+        <p>To visit the accomlishments we've made, leave a message below and we will contact you!</p>
+        <div class="row">
+          <div class="col-8 col-12-small">
+            <form method="post" action="#">
+              <div class="row gtr-uniform gtr-50">
+                <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+              </div>
+            </form>
+            <ul class="actions">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </div>
+          <div class="col-4 col-12-small">
+            <ul class="labeled-icons">
+              <li>
+                <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                1234 Somewhere Rd.<br />
+                Little Rock, AR 72206<br />
+                United States
+              </li>
+              <li>
+                <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                501-555-8898
+              </li>
+              <li>
+                <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                <a href="#">hello@untitled.tld</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+  
+      
+      
+    </footer>
       <p>Copyright SpaceWalkers 2018</p>
     </footer>
 
