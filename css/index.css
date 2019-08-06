@@ -1,11 +1,48 @@
-.align-left {
-    float: right;
-    margin-left: 20px;}
+
     
       
 h2{
- flex-grow: inherit;
+ flex-grow: initial;
+ text-align: center;
 }
 a:hover{
     border-color: yellowgreen;
   }
+  nav{
+    background-color: blue;
+}
+@media (max-width: 100px) {
+    body {
+      background-color: lightblue;
+    }
+}
+@media screen and (min-width: 786px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: lavender;
+    }
+  }
+   
+  img  {
+      display: block;
+      margin-right: auto;
+      width: 40%;
+      flex-direction: row;
+  }
+  a:hover{
+    border-color: yellowgreen;
+  }
+
+
+
+
+
+
+
+
+
